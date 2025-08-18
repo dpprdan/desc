@@ -143,7 +143,7 @@ desc <- function(cmd = NULL, file = NULL, text = NULL, package = NULL) {
 #' object itself), `$print` is used to print it to the
 #' screen. The `$normalize` function normalizes each field (i.e.
 #' it changes the object). Normalization means reformatting the fields,
-#' via `{$reformat_fields()` and also reordering them via
+#' via `$reformat_fields()` and also reordering them via
 #' `$reorder_fields()`. The format of the various fields is
 #' opinionated and you might like it or not. Note that `desc` only
 #' re-formats fields that it updates, and only on demand, so if your
