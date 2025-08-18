@@ -126,7 +126,7 @@ field in a standard way and returns them (it does not change the
 object itself), \verb{$print} is used to print it to the
 screen. The \verb{$normalize} function normalizes each field (i.e.
 it changes the object). Normalization means reformatting the fields,
-via \verb{\{$reformat_fields()} and also reordering them via
+via \verb{$reformat_fields()} and also reordering them via
 \verb{$reorder_fields()}. The format of the various fields is
 opinionated and you might like it or not. Note that \code{desc} only
 re-formats fields that it updates, and only on demand, so if your
